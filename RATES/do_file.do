@@ -1,5 +1,5 @@
 clear all
-cd "C:\Users\WB459082\Documents\RATES\"
+cd "C:\Users\WB459082\Documents\Andres\RATES\"
 import excel "appended_complete.xlsx", sheet("Sheet1") firstrow
 
 replace POL = LOCATION if POL==""
